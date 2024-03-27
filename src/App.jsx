@@ -7,9 +7,9 @@ import './App.css'
 function App() {
   const [numberOfParticipants, setNumberOfParticipants] = useState(null)
   const [userActivity, setUserActivity] = useState(null);
-
   useEffect ( () => {
     const getActivity = async () => {
+      setNumberOfParticipants(null);
       const participantString = numberOfParticipants ? `?participants=${numberOfParticipants}` : '';
 
       try {
