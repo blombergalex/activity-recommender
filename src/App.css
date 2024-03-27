@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css2?family=Oswald);
+
+:root {
+  --main-bg-color: rgb(42, 47, 53);
+  --secondary-color: rgb(97, 120, 148);
+  --accent-color: rgb(97, 202, 254);
+  --light-color: rgb(180, 201, 137);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--main-bg-color);
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  height: 100%;
+  letter-spacing: 1px;
+}
+
+header {
+  text-align: center;
+  padding: 16px;
+  width: 100%;
+  margin: 0;
+  color: var(--accent-color);
+  font-family: Oswald, Arial, Helvetica, sans-serif;
+}
+
+header h1 {
+  color: whitesmoke;
+  border-bottom: 2px solid var(--light-color);
+  text-transform: capitalize;
+}
+
+header h3 {
+  color: var(--accent-color)
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.activity {
+  padding: 24px;
+  color: white;
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+  flex: 0 0 80%;
+  text-align: center;
+  margin: 32px;
+}
+
+.content p {
+  color: white;
+  width: 100%;
+}
+
+button {
+  background-color: var(--light-color);
+  border: none;
+  border-radius: 5px;
+  color: var(--main-bg-color);
+  margin: 4px;
+  aspect-ratio: 1/1;
+  width: 50px;
+  font-size: 2rem;
+  cursor: pointer;
+}

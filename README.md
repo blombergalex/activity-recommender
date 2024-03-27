@@ -1,0 +1,1 @@
+React App suggesting an activity for 1, 2 or 4 participants depending on the users choice. Getting the activities from boredapi.com in a useEffect hook. 
