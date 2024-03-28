@@ -13,7 +13,7 @@ function App() {
       const participantString = numberOfParticipants ? `?participants=${numberOfParticipants}` : '';
 
       try {
-        let response = await fetch(`http://www.boredapi.com/api/activity/${participantString}`);
+        let response = await fetch(`https://www.boredapi.com/api/activity/${participantString}`);
         let data = await response.json();
         setUserActivity(data);
       } catch(error){

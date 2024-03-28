@@ -61,6 +61,7 @@ header h3 {
   flex: 0 0 80%;
   text-align: center;
   margin: 32px;
+  /* width: 60vh; */
 }
 
 .content p {
